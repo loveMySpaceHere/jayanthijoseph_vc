@@ -23,10 +23,10 @@
         <!-- Starts Navigation -->
         <!-- Choose a nav component with the toggler classes (burger menu) -->
         
-          <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+          <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
             <div class="container-fluid">
             <img src="./images/logo.PNG" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            
+              
               <a class="navbar-brand " href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,25 +34,26 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-                  <a class="nav-link" href="#listedcars">Cars</a>
-                  <a class="nav-link" href="#enquiries">Enquiries</a>
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link" href="#listedcars"><strong>Cars</strong></a>
+                  <a class="nav-link" href="#enquiries"><strong>Enquiries</strong></a>
+                  <a class="nav-link" href="#contact"><strong>Contact</strong></a>
                   
                 </div>
               </div>
+           
             </div>
           </nav>
     </header>
         
         <!-- Ends Navigation -->
         <!-- Starts Header Banner -->
-        <h1 class="container text-black bg-light my-3">Vintage Cars For Hire</h1>
+        <h1 class="container text-black my-5">Vintage Cars For Hire</h1>
         <!-- Ends Header Banner -->
 
     <!-- Section Cars Starts Here -->
 
     <section class="container mt-3" id="listedcars">
-      <h4>Here are our cars !!!</h4>
+      <h4>Here are our cars !</h4>
           <div class="row">
               <div class="col">
                       <div class="card" style="width: 18rem;">
@@ -132,15 +133,13 @@
                 </select>
               </div>
 
-              <div class="mb-3">
+              <div class="mb-3 form-group">
                 <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your comments here" rows="3"></textarea>
               </div>
 
               <button class="btn btn-primary" type="submit">Submit</button>
-            
-              
-
+        </form>   
     </section>
 
 
@@ -184,8 +183,9 @@
     <footer class="container">
         <p class="float-end"><a href="#">Back to top</a></p>
         <p class="text-center">
-          Copyright @LL. All rights reserved 2021
+          Copyright &copy;LL. All rights reserved 2021
         </p>
+        
     </footer>
       
       <!-- Footer Ends Here -->
